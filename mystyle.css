@@ -1,3 +1,50 @@
 html {
-    background-color: darkslategray;
+    height: 100vh;
+    background-color: #151515;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(212.37, 72%, 59%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(354.22, 82%, 44%) 0, transparent 55%);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2vw;
+    border-bottom: 1px solid #333;
+}
+
+nav li{
+    list-style-type: none;
+    color: aliceblue;
+    text-emphasis: none;
+    display: inline;
+    background-color: #333;
+    padding: 1.5vw;
+    margin: 0;
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.postcard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 57, 63);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    backdrop-filter: blur(9px) saturate(132%);
+    -webkit-backdrop-filter: blur(9px) saturate(132%);
+    background-color: rgba(17, 25, 40, 0.64);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.poster {
+    color: aliceblue;
+    font-weight: bold;
 }
